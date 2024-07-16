@@ -24,6 +24,7 @@ public class Book {
         Book book = new Book("First Movie", 5);
         System.out.println("Title:" + book.title);
         System.out.println("Pages: " + book.pages);
+        System.out.println("Pages: " + book.pages);
         System.out.println("Current Page: " + book.turnPage(book.currentPage));
 
     }
